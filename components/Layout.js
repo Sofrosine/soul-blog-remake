@@ -11,9 +11,8 @@ const Layout = props => {
         </title>
       </Head>
       <Navbar />
-      <div className={`flex justify-center align-middle ${props.className}`}>
-        {props.children}
-      </div>
+      {props.withTitle && <h1 className="self-center font-light text-blueGray-700 text-center text-6xl mt-8 mb-12">{props.title}</h1>}
+      <div className={`flex ${props.className}`}>{props.children}</div>
     </div>
   );
 };

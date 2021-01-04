@@ -35,9 +35,9 @@ export default function Home() {
         Soultan Muhammad Albar
       </h1>
       <p className="text-2xl flex font-regular mb-16">
-        <span className="text-blue-500">Mobile</span>
+        <span className="text-blue-500 animate-pulse">Mobile</span>
         {'\xa0and\xa0'}
-        <span className="text-blue-500">Web</span>
+        <span className="text-blue-500 animate-pulse">Web</span>
         {'\xa0Enthusiast'}
       </p>
       <span className="flex flex-row">
