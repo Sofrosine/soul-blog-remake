@@ -3,8 +3,8 @@ import Layout from '../components/Layout'
 
 const blog = () => {
     return (
-        <Layout title="Blog">
-            blog nichh
+        <Layout title="Blog" withTitle>
+            <span>awok</span>
         </Layout>
     )
 }

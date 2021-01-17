@@ -1,23 +1,32 @@
-import React from 'react';
-import Layout from '../components/Layout';
-import Image from 'next/image';
+import React, {useEffect, useState} from 'react';
 import CardSkills from '../components/CardSkills';
+import Layout from '../components/Layout';
 
-const skills = () => {
+const Skills = ({data}) => {
   return (
-    <Layout
-      title="Skills"
-      className="flex flex-wrap mx-auto w-1/2 justify-around"
-      withTitle
-    >
-      <CardSkills />
-      <CardSkills />
-      <CardSkills />
-      <CardSkills />
-      <CardSkills />
-      <CardSkills />
+    <Layout title="Skills" className="flex pb-4 " withTitle>
+      <div className="flex flex-col items-center shadow-xl w-full bg-main mx-8 py-8 rounded-md">
+        {data && data.data.map((item, index) => (
+          <CardSkills key={index} data={item} />
+        ))}
+      </div>
     </Layout>
   );
 };
 
-export default skills;
+export async function getStaticProps() {
+  // Call an external API endpoint to get data.
+  // You can use any data fetching library
+  const res = await fetch('http://localhost:4000/v1/skill');
+  const data = await res.json();
+
+  // By returning { props: data }, the Blog component
+  // will receive `data` as a prop at build time
+  return {
+    props: {
+      data,
+    },
+  };
+}
+
+export default Skills;

@@ -21,26 +21,24 @@ export default function Home() {
     },
   ];
   return (
-    <Layout
-      title="soultanid"
-      className="flex h-screen flex-col justify-center items-center"
-    >
+    <Layout title="soultanid" className="grid grid-flow-row place-items-center pt-4">
       <Image
         className="rounded-full shadow"
         src="/me.jpg"
         height={240}
         width={240}
+        objectFit="cover"
       />
-      <h1 className="text-5xl font-regular mt-16 mb-8 text-center">
+      <h1 className="text-5xl font-regular mt-8 mb-8 text-center">
         Soultan Muhammad Albar
       </h1>
-      <p className="text-2xl flex font-regular mb-16">
+      <p className="text-2xl flex font-regular mb-8 place-self-center">
         <span className="text-blue-500 animate-pulse">Mobile</span>
         {'\xa0and\xa0'}
         <span className="text-blue-500 animate-pulse">Web</span>
         {'\xa0Enthusiast'}
       </p>
-      <span className="flex flex-row">
+      <span className="flex flex-row justify-center gap-2">
         {socialMedia.map((item, key) => (
           <a
             target="_blank"

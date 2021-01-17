@@ -1,20 +1,26 @@
 import React from 'react';
 import Image from 'next/image';
+import ProgressBar from './ProgressBar';
 
-const CardSkills = () => {
+const CardSkills = ({data}) => {
   return (
-    <div className="card bg-white shadow-xl break-all text-center mb-2 rounded-lg px-5 py-5 w-72 flex flex-col w- items-center">
-      <Image
-        src="/facebook.png"
-        width={70}
-        height={70}
-        className="rounded-md"
+    <div className="flex flex-row my-auto w-3/4 mb-4 items-center">
+      <img
+        src={`http://localhost:4000/${data.image}`}
+        alt="skill-image"
+        className="rounded-md w-10 h-10"
       />
-      <p className="mt-4 mb-2 text-xl">React</p>
-      <p>
-        <span className="font-semibold">3 months</span>
-        {'\xa0of experience.'}
-      </p>
+      <div className="flex flex-col ml-4 w-full">
+        <div className="flex justify-between items-center">
+          <p className="text-base mb-1">{data.name}</p>
+          <p className="text-xs mb-1">{data.percentage}%</p>
+        </div>
+        <ProgressBar percentage={data.percentage} />
+        <p>
+          <span className="font-semibold text-xs">{data.experience}</span>
+          <span className="text-xs">{'\xa0of experience.'}</span>
+        </p>
+      </div>
     </div>
   );
 };
