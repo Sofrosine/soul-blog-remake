@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Code Skills",
+    "data": [
+      "React JS / React Native",
+      "Javascript and Typescript",
+      "Node JS (Express)",
+      "Firebase",
+      "MySQL"
+    ]
+  },
+  {
+    "title": "Code Tools",
+    "data": [
+      "Code Editor: Visual Studio Code",
+      "Browser: Chrome",
+      "Github, Gitlab and Bitbucket"
+    ]
+  },
+  {
+    "title": "Code Devices",
+    "data": [
+      "OS: MacOS, iOS, Android",
+      "Laptop: Macbook Pro M1 2020",
+      "Phone: iPhone 7 Plus and Realme 5i"
+    ]
+  }
+]

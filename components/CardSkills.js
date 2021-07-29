@@ -6,7 +6,7 @@ const CardSkills = ({data}) => {
   return (
     <div className="flex flex-row my-auto w-3/4 mb-4 items-center">
       <img
-        src={`http://localhost:4000/${data.image}`}
+        // src={`http://localhost:4000/${data.image}`}
         alt="skill-image"
         className="rounded-md w-10 h-10"
       />

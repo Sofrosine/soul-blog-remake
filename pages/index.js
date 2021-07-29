@@ -1,25 +1,6 @@
 import Layout from "../components/Layout";
 import Image from "next/image";
 
-const socialMedia = [
-  {
-    src: "/github.png",
-    href: "https://github.com/sofrosine",
-  },
-  {
-    src: "/linkedin.png",
-    href: "https://www.linkedin.com/in/soultanma/",
-  },
-  {
-    src: "/facebook.png",
-    href: "https://web.facebook.com/sofros1ne/",
-  },
-  {
-    src: "/instagram.png",
-    href: "https://www.instagram.com/soultan.muh/",
-  },
-];
-
 export default function Home() {
   return (
     <Layout

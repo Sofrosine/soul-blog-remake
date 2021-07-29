@@ -8,21 +8,24 @@ const navbarList = [
     href: "/",
   },
   {
-    title: "Experience",
-    href: "/experience",
+    title: "Journey",
+    href: "/journey",
   },
+  // {
+  //   title: "Skills",
+  //   href: "/skills",
+  // },
   {
     title: "Projects",
     href: "/projects",
   },
   {
+    title: "FYI",
+    href: "/fyi",
+  },
+  {
     title: "Blog",
     href: "/blog",
-  },
-
-  {
-    title: "Skills",
-    href: "/skills",
   },
 ];
 
@@ -31,7 +34,7 @@ const Navbar = () => {
   const [showResponsiveNavbar, setShowResponsiveNavbar] = useState(false);
 
   const navbarTextStyle = (item) => {
-    return `px-5 mx-4 pb-2 text-center my-auto ${
+    return `px-5 mx-2 pb-2 text-center my-auto ${
       router.pathname === item?.href
         ? "text-blueGray-700 border-blue-500 border-b-2"
         : "text-blueGray-500 border-transparent border-b-2 hover:text-blueGray-700 hover:border-blue-500"
@@ -50,8 +53,15 @@ const Navbar = () => {
         ))}
       </ul>
       <div className="flex justify-end pr-4 md:hidden">
-        <button aria-label="hamburger-navbar" onClick={() => setShowResponsiveNavbar(!showResponsiveNavbar)}>
-          <div className={showResponsiveNavbar ? "bar-container change" : "bar-container"}>
+        <button
+          aria-label="hamburger-navbar"
+          onClick={() => setShowResponsiveNavbar(!showResponsiveNavbar)}
+        >
+          <div
+            className={
+              showResponsiveNavbar ? "bar-container change" : "bar-container"
+            }
+          >
             <div className="bar1" />
             <div className="bar2" />
             <div className="bar3" />
@@ -59,7 +69,7 @@ const Navbar = () => {
         </button>
       </div>
       {showResponsiveNavbar && (
-        <ul className="flex flex-col font-normal text-2xl gap-4 mt-4">
+        <ul className="flex flex-col font-normal text-xl gap-4 mt-4">
           {navbarList.map((item, index) => (
             <li key={index}>
               <Link href={item.href}>
