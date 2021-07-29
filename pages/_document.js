@@ -7,7 +7,7 @@ const image = "https://avatars.githubusercontent.com/u/54109543?v=4";
 const url = "https://soultan.id";
 const keywords =
   "soultan, soultanid, soultan.id, soultan albar, soultan muhammad, soultan muhammad albar, soultan albar, sofrosine, programmer, react native developer";
-  
+
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
@@ -27,28 +27,20 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap"
             rel="stylesheet"
           ></link>
-
+          <link rel="shortcut icon" href="/favicon.ico" />
+          <meta name="application-name" content="SoultanId" />
+          <meta name="apple-mobile-web-app-capable" content="yes" />
+          <meta name="format-detection" content="telephone=no" />
           <meta
-            name="viewport"
-            content="initial-scale=1.0, width=device-width"
-            key="viewport"
+            name="apple-mobile-web-app-status-bar-style"
+            content="default"
           />
-          <meta name="description" content={description}></meta>
-          <meta charset="UTF-8"></meta>
-          <title>{title}</title>
-
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content={url} />
-          <meta property="og:title" content={title} />
-          <meta property="og:description" content={description} />
-          <meta property="og:image" content={image} />
-
-          <meta name="keywords" content={keywords} />
-          <meta name="robots" content="index, follow" />
-          <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-          <meta name="language" content="English" />
-          <meta name="revisit-after" content="7 days" />
-          <meta name="author" content="Soultan Muhammad Albar" />
+          <meta name="mobile-web-app-capable" content="yes" />
+          <meta name="apple-mobile-web-app-title" content="SoultanId" />
+          <meta name="msapplication-tap-highlight" content="no" />
+          <link rel="shortcut icon" href="/favicon.ico" />
+          <meta name="msapplication-TileColor" content="#fafafa" />
+          <meta name="theme-color" content="#fafafa" />
         </Head>
         <body className="font-poppins">
           <Main />
