@@ -5,7 +5,7 @@ import OnProgress from "../components/OnProgress";
 const Experience = () => {
   return (
     <Layout
-      metaKeywords="soultan muhammad albar experience, soultan albar experience, soultanid experience, soultan experience, experience soultan, nextjs experience, soultan portofolio, soultan muhammad albar portofolio"
+      metaKeywords="soultan, soultan muhammad albar, soultan muhammad albar experience, soultan albar experience, soultanid experience, soultan experience, experience soultan, nextjs experience, soultan portofolio, soultan muhammad albar portofolio"
       metaDescription="My Experience"
       withTitle
       title="Work Experience"

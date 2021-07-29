@@ -23,7 +23,7 @@ const socialMedia = [
 export default function Home() {
   return (
     <Layout
-      metaKeywords="soultan muhammad albar web, soultan albar web, soultanid web, soultan web, web soultan, nextjs web, soultan portofolio, soultan muhammad albar portofolio"
+      metaKeywords="soultan, soultan muhammad albar, soultan muhammad albar web, soultan albar web, soultanid web, soultan web, web soultan, nextjs web, soultan portofolio, soultan muhammad albar portofolio"
       metaDescription="Soultan's Homepage"
       title="soultanid"
       className="flex flex-col md:flex-row justify-center items-center"
