@@ -8,7 +8,7 @@ const navbarList = [
     href: "/",
   },
   {
-    title: "Work Experience",
+    title: "Experience",
     href: "/experience",
   },
   {

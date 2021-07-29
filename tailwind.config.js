@@ -10,6 +10,7 @@ module.exports = {
       poppins: ['Poppins', 'ui-sans-serif'],
     },
     colors: {
+      black: colors.black,
       blue: colors.lightBlue,
       blueGray: colors.blueGray,
       transparent: 'transparent',

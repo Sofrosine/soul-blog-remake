@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Dagangan",
+    "as": "Mobile Engineer",
+    "what": [
+      "Develop mobile application using React Native",
+      "Coordinate with UI / UX team, Backend, and Project Manager on develop application",
+      "Work with scrum agile"
+    ],
+    "range_date": "December 2020 - now"
+  },
+  {
+    "name": "Gomodo Technologies",
+    "as": "Mobile Engineer",
+    "what": [
+      "Develop Gomodo's Application using React Native (Mobile) and NextJS (Web)",
+      "Coordinate with UI / UX team, Backend, and Project Manager on develop application",
+      "Help Front End Web Engineer on develop website using ReactJS and VueJS"
+    ],
+    "range_date": "February 2020 - December 2020"
+  },
+  {
+    "name": "Arkademy Tech Education Platform",
+    "as": "Fullstack Javascript Bootcamp Student",
+    "what": [
+      "Create RESTful API using ExpressJS",
+      "Create Web Application using ReactJS",
+      "Create Mobile Application using React Native"
+    ],
+    "range_date": "December 2019 - January 2020"
+  },
+  {
+    "name": "SMA N 1 Depok",
+    "as": "Science Student",
+    "what": [],
+    "range_date": "2016 - May 2019"
+  }
+]
