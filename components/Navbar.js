@@ -50,7 +50,7 @@ const Navbar = () => {
         ))}
       </ul>
       <div className="flex justify-end pr-4 md:hidden">
-        <button onClick={() => setShowResponsiveNavbar(!showResponsiveNavbar)}>
+        <button aria-label="hamburger-navbar" onClick={() => setShowResponsiveNavbar(!showResponsiveNavbar)}>
           <div className={showResponsiveNavbar ? "bar-container change" : "bar-container"}>
             <div className="bar1" />
             <div className="bar2" />

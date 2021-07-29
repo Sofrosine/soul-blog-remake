@@ -32,16 +32,17 @@ export default function Home() {
         height={160}
         width={160}
         objectFit="cover"
+        alt="profile-photo"
       />
       <div className="flex flex-col md:ml-8 justify-center">
         <h1 className="text-3xl text-blueGray-700 mt-8 md:mt-0 text-center ml-4 mr-4 md:ml-0 md:mr-0 md:text-start font-regular mb-4">
           Hello, I'm
-          <span className="text-blue-500 animate-pulse"> Soultan </span>
+          <span className="text-blue-500"> Soultan </span>
           Muhammad Albar
         </h1>
         <p className="text-xl text-blueGray-500 flex font-regular place-self-center md:place-self-start">
           {/* I'm a{"\xa0"} */}
-          <span className="text-blue-500 animate-pulse">React Native</span>
+          <span className="text-blue-500">React Native</span>
           {"\xa0"}Developer
           {/* {'\xa0and\xa0'} */}
           {/* <span className="text-blue-500 animate-pulse">Web</span> */}
