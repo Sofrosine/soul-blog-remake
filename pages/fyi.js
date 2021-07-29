@@ -18,7 +18,15 @@ const FYI = () => {
             Why i make my own website?
           </h1>
           <p className="text-xs text-warmGray-700 md:text-sm mb-2">
-            This website created when i was <i>gabut</i>.
+            This website created when i was <i>gabut</i>. Inspired by{" "}
+            <a
+              className="text-blue-700 font-semibold"
+              target="_blank"
+              href="https://iyansr.id"
+            >
+              iyansr
+            </a>
+            .
           </p>
           <p className="text-xs text-warmGray-700 md:text-sm">
             So, if you are <i>gabut</i>, you should make another one for

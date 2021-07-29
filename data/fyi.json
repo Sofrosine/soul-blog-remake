@@ -13,14 +13,15 @@
     "title": "Code Tools",
     "data": [
       "Code Editor: Visual Studio Code",
-      "Browser: Chrome",
-      "Github, Gitlab and Bitbucket"
+      "Browser: Chrome and Safari",
+      "DatabaseGUI: MySQLWorkbench",
+      "Others: Jira, Postman, Slack"
     ]
   },
   {
     "title": "Code Devices",
     "data": [
-      "OS: MacOS, iOS, Android",
+      "OS: macOS Big Sur, iOS, Android",
       "Laptop: Macbook Pro M1 2020",
       "Phone: iPhone 7 Plus and Realme 5i"
     ]
