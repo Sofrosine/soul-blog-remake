@@ -38,7 +38,7 @@ export default function Home() {
         alt="profile-photo"
       />
       <div className="flex flex-col md:ml-8 justify-center">
-        <h1 className="text-lg md:text-3xl text-blueGray-700 mt-8 md:mt-0 text-center ml-6 mr-6 md:ml-0 md:mr-0 md:text-start font-regular mb-4">
+        <h1 className="text-xl md:text-3xl text-blueGray-700 mt-8 md:mt-0 text-center ml-6 mr-6 md:ml-0 md:mr-0 md:text-start font-regular mb-4">
           Hello, I'm
           <span className="text-blue-500"> Soultan </span>
           Muhammad Albar
