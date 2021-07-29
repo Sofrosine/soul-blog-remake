@@ -7,6 +7,7 @@ const Projects = () => {
     <Layout
       metaKeywords="soultan, soultan muhammad albar, soultan muhammad albar project, soultan albar project, soultanid project, soultan project, project soultan, nextjs project, soultan portofolio, soultan muhammad albar portofolio"
       metaDescription="My Projects"
+      metaTitle="My Projects"
       withTitle
       title="Projects"
     >

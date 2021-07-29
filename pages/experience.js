@@ -7,6 +7,7 @@ const Experience = () => {
     <Layout
       metaKeywords="soultan, soultan muhammad albar, soultan muhammad albar experience, soultan albar experience, soultanid experience, soultan experience, experience soultan, nextjs experience, soultan portofolio, soultan muhammad albar portofolio"
       metaDescription="My Experience"
+      metaTitle="My Experience"
       withTitle
       title="Work Experience"
     >

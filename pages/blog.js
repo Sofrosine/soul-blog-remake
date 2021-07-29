@@ -7,6 +7,7 @@ const blog = () => {
     <Layout
       metaKeywords="soultan, soultan muhammad albar, soultan muhammad albar blog, soultan albar blog, soultanid blog, soultan blog, blog soultan, nextjs blog, soultan portofolio, soultan muhammad albar portofolio"
       metaDescription="Soultan's Blog"
+      metaTitle="Soultan's Blog"
       className="flex justify-center"
       title="Blog"
       withTitle

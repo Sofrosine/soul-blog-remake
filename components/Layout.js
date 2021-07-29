@@ -10,7 +10,7 @@ const DivMemo = memo((props) => {
 const Layout = (props) => {
   return (
     <div className={`flex flex-col mx-auto bg-main min-h-screen`}>
-      <Meta keywords={props.metaKeywords} description={props.metaDescription} />
+      <Meta title={props.metaTitle} keywords={props.metaKeywords} description={props.metaDescription} />
       {/* <Head>
         <title>
           {props.title !== 'soultanid' ? "Soul's " : null}

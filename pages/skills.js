@@ -8,6 +8,7 @@ const Skills = ({ data }) => {
     <Layout
       metaKeywords="soultan, soultan muhammad albar, soultan muhammad albar skills, soultan albar skills, soultanid skills, soultan skills, skills soultan, nextjs skills, soultan portofolio, soultan muhammad albar portofolio"
       metaDescription="My Skills"
+      metaTitle="My Skills"
       title="Skills"
       withTitle
     >
