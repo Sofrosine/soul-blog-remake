@@ -11,8 +11,8 @@ const Layout = (props) => {
   return (
     <div className={`flex flex-col mx-auto bg-main min-h-screen`}>
       <Meta
-        title={"soultanid ,soultan albar, soultanma" + props.metaTitle}
-        keywords={props.metaKeywords}
+        title={props.metaTitle}
+        keywords={"soultanid ,soultan albar, soultanma" + props.metaKeywords}
         description={props.metaDescription}
       />
       <Navbar />
