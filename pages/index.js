@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <Layout
       metaKeywords="soultan, soultan muhammad albar, soultan muhammad albar web, soultan albar web, soultanid web, soultan web, web soultan, nextjs web, soultan portofolio, soultan muhammad albar portofolio"
-      metaDescription="Soultan's Homepage"
+      metaDescription="Webnya Soultan"
       metaTitle="Soultan | React Native Developer"
       title="soultanid"
       className="flex flex-col md:flex-row justify-center items-center"
