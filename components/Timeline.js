@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Timeline = ({ item }) => {
   return (
     <div className="flex" style={{ width: "90%", minHeight: "6rem" }}>
@@ -13,7 +15,15 @@ const Timeline = ({ item }) => {
         />
       </div>
       <div style={{ width: "50%" }}>
-        <p className="text-blue-700">{item?.name}</p>
+        <Link href={item?.href ? item?.href : ""}>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-700"
+          >
+            {item?.name}
+          </a>
+        </Link>
         <p className="text-xs text-blueGray-500 mb-2">{item?.as}</p>
         <ul className="mb-4 list-disc ml-4 text-blue-500">
           {item?.what?.map((itemWhat, index) => (

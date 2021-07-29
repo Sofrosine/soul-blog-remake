@@ -39,7 +39,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="pb-5 pt-10">
+    <nav className="pb-5 pt-10 z-50">
       <ul className="justify-center font-normal text-2xl hidden md:flex">
         {navbarList.map((item, index) => (
           <li key={index}>
