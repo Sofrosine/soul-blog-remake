@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
-import CardSkills from "../components/CardSkills";
-import Layout from "../components/Layout";
-import OnProgress from "../components/OnProgress";
+import React from "react";
+import Layout from "../../components/Layout";
+
+import OnProgress from "../../components/OnProgress";
 
 const Skills = ({ data }) => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import Layout from "../components/Layout";
-import Timeline from "../components/Timeline";
-import ExperienceJSON from "../data/experience.json";
+import Layout from "../../components/Layout";
+import Timeline from "../../components/Timeline";
+import ExperienceJSON from "../../data/experience.json";
 
 const Journey = () => {
   return (

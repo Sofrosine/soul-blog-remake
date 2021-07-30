@@ -1,6 +1,6 @@
 import React from "react";
-import Layout from "../components/Layout";
-import OnProgress from "../components/OnProgress";
+import Layout from "../../components/Layout";
+import OnProgress from "../../components/OnProgress";
 
 const Projects = () => {
   return (

@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import Layout from "../components/Layout";
-import FYIJson from "../data/fyi.json";
-import SocialMediaJSON from "../data/socialmedia.json";
+import Layout from "../../components/Layout";
+import FYIJson from "../../data/fyi.json";
+import SocialMediaJSON from "../../data/socialmedia.json";
 
 const FYI = () => {
   return (
