@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Layout from "../components/Layout";
 import FYIJson from "../data/fyi.json";
 import SocialMediaJSON from "../data/socialmedia.json";
@@ -23,6 +24,7 @@ const FYI = () => {
               className="text-blue-700 font-semibold"
               target="_blank"
               href="https://iyansr.id"
+              rel="noreferrer"
             >
               iyansr
             </a>
@@ -58,19 +60,21 @@ const FYI = () => {
           </p>
           <span className="flex flex-row gap-2">
             {SocialMediaJSON.map((item, key) => (
-              <a
-                target="_blank"
-                className="px-3 hover:shadow-xl rounded"
-                key={key}
-                href={item.href}
-              >
-                <Image
-                  className="shadow"
-                  src={item.src}
-                  height={32}
-                  width={32}
-                />
-              </a>
+              <Link key={key} href={item?.href}>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className="px-3 hover:shadow-xl rounded"
+                >
+                  <Image
+                    className="shadow"
+                    src={item?.src}
+                    height={32}
+                    width={32}
+                    alt={item?.alt}
+                  />
+                </a>
+              </Link>
             ))}
           </span>
         </div>

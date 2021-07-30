@@ -1,18 +1,22 @@
 [
   {
     "src": "/github.png",
-    "href": "https://github.com/sofrosine"
+    "href": "https://github.com/sofrosine",
+    "alt": "github"
   },
   {
     "src": "/linkedin.png",
-    "href": "https://www.linkedin.com/in/soultanma/"
+    "href": "https://www.linkedin.com/in/soultanma/",
+    "alt": "linkedin"
   },
   {
     "src": "/facebook.png",
-    "href": "https://web.facebook.com/sofros1ne/"
+    "href": "https://web.facebook.com/sofros1ne/",
+    "alt": "facebook"
   },
   {
     "src": "/instagram.png",
-    "href": "https://www.instagram.com/soultan.muh/"
+    "href": "https://www.instagram.com/soultan.muh/",
+    "alt": "instagram"
   }
 ]
