@@ -17,7 +17,7 @@ const Layout = (props) => {
       />
       <Meta
         title={props.metaTitle}
-        keywords={"soultan muhammad albar , soultan web, soultan albar, soultanma" + props.metaKeywords}
+        keywords={"soultanid, soultan muhammad albar , soultan web, soultan albar, soultanma" + props.metaKeywords}
         description={props.metaDescription}
       />
       <Navbar />
