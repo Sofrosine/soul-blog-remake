@@ -14,10 +14,10 @@ const prettier = require("prettier");
                   console.log(page, index)
                 const path = page
                   .replace("pages", "")
-                  .replace("/blog/index", "/blog")
-                  .replace("/journey/index", "/journey")
-                  .replace("/projects/index", "/projects")
                   .replace("/fyi/index", "/fyi")
+                  .replace("/journey/index", "/journey")
+                  .replace("/blog/index", "/blog")
+                  .replace("/projects/index", "/projects")
                   .replace(".js", "")
                   .replace(".mdx", "");
                 const route = path === "/index" ? "" : path;
