@@ -7,7 +7,7 @@ import SocialMediaJSON from "../../data/socialmedia.json";
 const FYI = () => {
   return (
     <Layout
-      metaKeywords="soultanid, soultan muhammad albar, about soultan muhammad albar, about soultan albar, about soultanid, soultan, about soultan, nextjs, soultan portofolio, soultan muhammad albar portofolio"
+      metaKeywords="soultanid, soultan muhammad albar fyi, about soultan muhammad albar, about soultan albar, about soultanid, soultan, about soultan, nextjs, soultan portofolio, soultan muhammad albar portofolio"
       metaDescription="About Soultan"
       metaTitle="About"
       title="About"

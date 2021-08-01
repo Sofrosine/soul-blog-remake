@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <Layout
-      metaKeywords="soultan, soultan muhammad albar, soultan muhammad albar web, soultan albar web, soultanid web, soultan web, web soultan, nextjs web, soultan portofolio, soultan muhammad albar portofolio"
+      metaKeywords="soultan, soultan muhammad albar web, soultan albar web, soultanid web, soultan web, web soultan, nextjs web, soultan portofolio, soultan muhammad albar portofolio"
       metaDescription="Webnya Soultan"
       metaTitle="Soultan | React Native Developer"
       title="soultanid"
@@ -16,7 +16,7 @@ export default function Home() {
         height={160}
         width={160}
         objectFit="cover"
-        alt="profile-photo"
+        alt="Soultan Muhammad Albar"
       />
       <div className="flex flex-col md:ml-8 justify-center">
         <h1 className="text-xl md:text-3xl text-blueGray-700 mt-8 md:mt-0 text-center ml-6 mr-6 md:ml-0 md:mr-0 md:text-start font-regular mb-4">
