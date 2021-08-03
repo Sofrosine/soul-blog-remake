@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <Layout
-      metaKeywords="soultan, soultan muhammad albar web, soultan albar web, soultanid web, soultan web, web soultan, nextjs web, soultan portofolio, soultan muhammad albar portofolio"
+      metaKeywords="soultan muhammad albar web, soultan albar web, soultanid web, soultan web, web soultan, nextjs web, soultan portofolio, soultan muhammad albar portofolio"
       metaDescription="Webnya Soultan"
       metaTitle="Soultan | React Native Developer"
       title="soultanid"

@@ -6,7 +6,7 @@ import ExperienceJSON from "../../data/experience.json";
 const Journey = () => {
   return (
     <Layout
-      metaKeywords="soultan, soultan muhammad albar journey, soultan muhammad albar journey, soultan albar journey, soultanid journey, soultan journey, journey soultan, nextjs journey, soultan portofolio, soultan muhammad albar portofolio"
+      metaKeywords="soultan muhammad albar journey, soultan muhammad albar journey, soultan albar journey, soultanid journey, soultan journey, journey soultan, nextjs journey, soultan portofolio, soultan muhammad albar portofolio"
       metaDescription="My Journey"
       metaTitle="My Journey"
       withTitle
