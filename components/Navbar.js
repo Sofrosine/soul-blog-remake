@@ -1,8 +1,7 @@
 import { useTheme } from "next-themes";
-import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useRef, useState, ReactDOM } from "react";
+import { memo, useState } from "react";
 import Moon from "../public/moon.svg";
 import Sun from "../public/sun.svg";
 
@@ -65,10 +64,10 @@ const Navbar = () => {
           className="absolute right-16 hidden lg:flex"
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         >
-          {theme === "light" ? (
-            <Moon width={32} height={32} fill={"rgb(82 82 82)"} />
-          ) : (
+          {theme === "dark" ? (
             <Sun width={32} height={32} fill={"#fafafa"} />
+          ) : (
+            <Moon width={32} height={32} fill={"rgb(82 82 82)"} />
           )}
         </button>
       </div>
@@ -115,4 +114,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default memo(Navbar);

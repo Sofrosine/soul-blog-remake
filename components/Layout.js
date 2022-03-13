@@ -1,5 +1,5 @@
 import { useTheme } from "next-themes";
-import { memo } from "react";
+import { memo, useEffect, useState } from "react";
 import Particles from "react-tsparticles";
 import ParticlesJSON from "../data/particles.json";
 import Meta from "./Meta";
@@ -10,7 +10,12 @@ const DivMemo = memo((props) => {
 });
 
 const Layout = (props) => {
-  const { theme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  // When mounted on client, now we can show the UI
+  useEffect(() => setMounted(true), []);
+
+  if (!mounted) return null;
 
   return (
     <>
@@ -38,11 +43,6 @@ const Layout = (props) => {
           description={props.metaDescription}
         />
         <Navbar />
-        {/* {props.withTitle && (
-          <h1 className="z-50 self-center font-light text-blueGray-700 text-center text-4xl mt-8 mb-12">
-            {props.title}
-          </h1>
-        )} */}
         <div className="page-in flex justify-center flex-1 flex-col">
           <DivMemo>
             <div className={`${props.className}`}>{props.children}</div>
