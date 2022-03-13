@@ -1,7 +1,7 @@
 import { useTheme } from "next-themes";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { memo, useState } from "react";
+import { memo, useState, useEffect } from "react";
 import Moon from "../public/moon.svg";
 import Sun from "../public/sun.svg";
 
@@ -48,6 +48,8 @@ const Navbar = () => {
 
   return (
     <nav className="pb-5 pt-10 z-50">
+      <p>{theme}</p>
+
       <div className="flex row justify-center items-center">
         <ul className="justify-center font-normal text-2xl hidden lg:flex">
           {navbarList.map((item, index) => (
@@ -64,10 +66,10 @@ const Navbar = () => {
           className="absolute right-16 hidden lg:flex"
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         >
-          {theme === "dark" ? (
-            <Sun width={32} height={32} fill={"#fafafa"} />
-          ) : (
+          {theme === "light" ? (
             <Moon width={32} height={32} fill={"rgb(82 82 82)"} />
+          ) : (
+            <Sun width={32} height={32} fill={"#fafafa"} />
           )}
         </button>
       </div>

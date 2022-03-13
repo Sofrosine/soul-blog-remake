@@ -11,9 +11,15 @@ const DivMemo = memo((props) => {
 
 const Layout = (props) => {
   const [mounted, setMounted] = useState(false);
+  const { theme, setTheme } = useTheme();
 
   // When mounted on client, now we can show the UI
-  useEffect(() => setMounted(true), []);
+  useEffect(() => {
+    setMounted(true);
+    if (theme === "system") {
+      setTheme("light");
+    }
+  }, []);
 
   if (!mounted) return null;
 
@@ -44,9 +50,7 @@ const Layout = (props) => {
         />
         <Navbar />
         <div className="page-in flex justify-center flex-1 flex-col">
-          <DivMemo>
-            <div className={`${props.className}`}>{props.children}</div>
-          </DivMemo>
+          <div className={`${props.className}`}>{props.children}</div>
         </div>
       </div>
     </>

@@ -12,7 +12,7 @@ Router.events.on("routeChangeError", () => NProgress.done());
 function MyApp({ Component, router, pageProps }) {
   return (
     <>
-      <ThemeProvider attribute="class">
+      <ThemeProvider enableSystem="false" attribute="class">
         <Component key={router.route} {...pageProps} />
       </ThemeProvider>
     </>
