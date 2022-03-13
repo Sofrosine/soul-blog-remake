@@ -36,7 +36,7 @@ const Navbar = () => {
   const router = useRouter();
   const [showResponsiveNavbar, setShowResponsiveNavbar] = useState(false);
 
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme, resolvedTheme } = useTheme();
 
   const navbarTextStyle = (item) => {
     return `px-5 mx-2 pb-2 text-center my-auto ${
@@ -64,7 +64,7 @@ const Navbar = () => {
           className="absolute right-16 hidden lg:flex"
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         >
-          {theme === "light" ? (
+          {resolvedTheme === "light" ? (
             <Moon width={32} height={32} fill={"rgb(82 82 82)"} />
           ) : (
             <Sun width={32} height={32} fill={"#fafafa"} />
@@ -78,7 +78,7 @@ const Navbar = () => {
           type="button"
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         >
-          {theme === "light" ? (
+          {resolvedTheme === "light" ? (
             <Moon width={32} height={32} fill={"rgb(82 82 82)"} />
           ) : (
             <Sun width={32} height={32} fill={"#fafafa"} />

@@ -16,9 +16,6 @@ const Layout = (props) => {
   // When mounted on client, now we can show the UI
   useEffect(() => {
     setMounted(true);
-    if (theme === "system") {
-      setTheme("light");
-    }
   }, []);
 
   if (!mounted) return null;
