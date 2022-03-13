@@ -15,13 +15,13 @@ const FYI = () => {
     >
       <div className="w-4/5 lg:w-2/5">
         <div className="mb-4">
-          <h1 className="text-xl md:text-2xl font-semibold mb-2 text-blueGray-700">
+          <h1 className="text-xl md:text-2xl font-semibold mb-2 text-blueGray dark:text-white">
             Why i make my own website?
           </h1>
-          <p className="text-xs text-warmGray-700 md:text-sm mb-2">
+          <p className="text-xs text-blueGray dark:text-white md:text-sm mb-2">
             This website created when i was <i>gabut</i>. Inspired by{" "}
             <a
-              className="text-blue-700 font-semibold"
+              className="text-blue font-semibold"
               target="_blank"
               href="https://iyansr.id"
               rel="noreferrer"
@@ -30,20 +30,20 @@ const FYI = () => {
             </a>
             .
           </p>
-          <p className="text-xs text-warmGray-700 md:text-sm">
+          <p className="text-xs text-blueGray dark:text-white md:text-sm">
             So, if you are <i>gabut</i>, you should make another one for
             yourself too.
           </p>
         </div>
         {FYIJson.map((item, index) => (
           <div className="mb-4" key={index}>
-            <h1 className="text-xl md:text-2xl font-semibold mb-2 text-blueGray-700">
+            <h1 className="text-xl md:text-2xl font-semibold mb-2 text-blueGray dark:text-white">
               {item?.title}
             </h1>
-            <ul className="list-disc pl-8 text-blueGray-700">
+            <ul className="list-disc pl-8 text-blueGray dark:text-white">
               {item?.data.map((itemData, indexData) => (
                 <li key={indexData}>
-                  <p className="text-xs text-warmGray-700 md:text-sm">
+                  <p className="text-xs text-blueGray dark:text-white md:text-sm">
                     {itemData}
                   </p>
                 </li>
@@ -52,10 +52,10 @@ const FYI = () => {
           </div>
         ))}
         <div className="mb-4">
-          <h1 className="text-xl md:text-2xl font-semibold mb-2 text-blueGray-700">
+          <h1 className="text-xl md:text-2xl font-semibold mb-2 text-blueGray dark:text-white">
             How to find me
           </h1>
-          <p className="text-xs text-warmGray-700 md:text-sm mb-4">
+          <p className="text-xs text-blueGray dark:text-white md:text-sm mb-4">
             You can find me through one of these:
           </p>
           <span className="flex flex-row gap-2">
