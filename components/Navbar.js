@@ -73,7 +73,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      <div className="flex justify-between items-center pr-4 pl-8 lg:hidden">
+      <div className="flex justify-between items-center pr-4 pl-4 lg:hidden">
         <button
           aria-label="Toggle Dark Mode"
           type="button"
