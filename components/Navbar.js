@@ -48,8 +48,6 @@ const Navbar = () => {
 
   return (
     <nav className="pb-5 pt-10 z-50">
-      <p>{theme}</p>
-
       <div className="flex row justify-center items-center">
         <ul className="justify-center font-normal text-2xl hidden lg:flex">
           {navbarList.map((item, index) => (
