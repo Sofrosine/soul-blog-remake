@@ -1,8 +1,8 @@
 import Head from "next/head";
 
-const defaultTitle = "Soultan | React Native Developer";
+const defaultTitle = "Soultan | Mobile Engineer";
 const defaultDesc =
-  "A React Native Developer who is persistent on solving problems and easy to learn a new thing. Experienced on React Native for almost 2 years";
+  "A Mobile Engineer who is persistent on solving problems and easy to learn a new thing. Experienced on React Native for almost 2 years";
 const defaultImage = "https://avatars.githubusercontent.com/u/54109543?v=4";
 const defaultUrl = "https://soultan.id";
 const defaultKeyword =
