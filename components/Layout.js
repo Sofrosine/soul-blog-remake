@@ -1,17 +1,11 @@
-import { useTheme } from "next-themes";
-import { memo, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Particles from "react-tsparticles";
 import ParticlesJSON from "../data/particles.json";
 import Meta from "./Meta";
 import Navbar from "./Navbar";
 
-const DivMemo = memo((props) => {
-  return props.children;
-});
-
 const Layout = (props) => {
   const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
 
   // When mounted on client, now we can show the UI
   useEffect(() => {

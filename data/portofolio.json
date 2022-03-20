@@ -14,7 +14,7 @@
       {
         "name": "firebase",
         "bgColor": "bg-orange",
-        "darkBgColor": "dark:bg-orangeDark"
+        "darkBgColor": "bg-orangeDark"
       },
       {
         "name": "codePush",
@@ -32,20 +32,20 @@
       {
         "name": "OsmiCSX",
         "bgColor": "bg-white",
-        "darkBgColor": "dark:bg-warmGray",
+        "darkBgColor": "bg-warmGray",
         "link": "https://github.com/OsmiCSX/osmi"
       },
       {
         "name": "javascript",
         "bgColor": "bg-yellow",
-        "darkBgColor": "dark:bg-orange"
+        "darkBgColor": "bg-orange"
       },
       { "name": "react native", "bgColor": "bg-blue", "darkBgColor": "" },
       { "name": "redux saga", "bgColor": "bg-blue", "darkBgColor": "" },
       {
         "name": "firebase",
         "bgColor": "bg-orange",
-        "darkBgColor": "dark:bg-orangeDark"
+        "darkBgColor": "bg-orangeDark"
       }
     ],
     "image": "p-takenaka.png"
@@ -58,7 +58,7 @@
       {
         "name": "Ignite CLI",
         "bgColor": "bg-white",
-        "darkBgColor": "dark:bg-warmGray",
+        "darkBgColor": "bg-warmGray",
         "link": "https://github.com/infinitered/ignite"
       },
       {
@@ -71,7 +71,7 @@
       {
         "name": "firebase",
         "bgColor": "bg-orange",
-        "darkBgColor": "dark:bg-orangeDark"
+        "darkBgColor": "bg-orangeDark"
       }
     ],
     "image": "p-goldenmulia.png"
@@ -84,14 +84,14 @@
       {
         "name": "javascript",
         "bgColor": "bg-yellow",
-        "darkBgColor": "dark:bg-orange"
+        "darkBgColor": "bg-orange"
       },
       { "name": "react native", "bgColor": "bg-blue", "darkBgColor": "" },
       { "name": "redux thunk", "bgColor": "bg-blue", "darkBgColor": "" },
       {
         "name": "firebase",
         "bgColor": "bg-orange",
-        "darkBgColor": "dark:bg-orangeDark"
+        "darkBgColor": "bg-orangeDark"
       }
     ],
     "source_code": "https://play.google.com/store/apps/details?id=com.dagangan.mall",
