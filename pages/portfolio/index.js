@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import CardPortfolio from "../../components/CardPortfolio";
 import Layout from "../../components/Layout";
 import OnProgress from "../../components/OnProgress";
 import PortofolioJson from "../../data/portofolio.json";
 
 const Portfolio = () => {
+  const [mounted, setMounted] = useState(false);
+
+  // When mounted on client, now we can show the UI
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return null;
   return (
     <Layout
       metaKeywords="soultan muhammad albar portfolio, soultan albar portfolio, soultanid portfolio, soultan portfolio, portfolio soultan, nextjs portfolio, soultan portofolio, soultan muhammad albar portofolio"
@@ -16,7 +24,10 @@ const Portfolio = () => {
     >
       {PortofolioJson?.map((item, index) => {
         return (
-          <div key={index} className="mb-8 w-11/12 sm:w-2/3 2xl:w-2/5 card-blog-parent">
+          <div
+            key={index}
+            className="mb-8 w-11/12 sm:w-2/3 2xl:w-2/5 card-blog-parent"
+          >
             <CardPortfolio item={item} />
           </div>
         );

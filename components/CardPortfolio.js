@@ -9,16 +9,23 @@ const CardPortfolio = ({ item }) => {
       </div>
       <div className="pt-2 pl-3 pr-4 w-full h-auto lg:w-1/2 flex flex-1 flex-col justify-between">
         <div className="mb-4">
-          <h1 className="text-2xl font-semibold mb-1">{item?.name}</h1>
-          <p className="text-xs font-extralight mb-3">
+          <h1 className="text-2xl  font-semibold mb-1">{item?.name}</h1>
+          <p className="text-xs  font-extralight mb-3">
             Created at {item?.start_date}
           </p>
-          <p className="text-sm md:text-base font-light">{item?.description}</p>
+          <p className="text-sm md:text-base font-light ">
+            {item?.description}
+          </p>
           <div className="flex flex-row flex-wrap mt-2">
             {item?.stack?.map((item, index) => {
               if (item?.link) {
                 return (
-                  <a key={index} href={item?.link} target="_blank" className="mr-2 mb-2">
+                  <a
+                    key={index}
+                    href={item?.link}
+                    target="_blank"
+                    className="mr-2 mb-2"
+                  >
                     <Tag item={item} />
                   </a>
                 );
@@ -34,13 +41,23 @@ const CardPortfolio = ({ item }) => {
         </div>
         <div className="flex flex-row items-center mt-4 justify-end mb-2">
           {item?.project_link && (
-            <a rel="noreferrer" target={"_blank"} href={item?.project_link}>
-              <a className="mr-4 underline">Visit Project</a>
+            <a
+              className={`underline  ${item?.source_code ? "mr-4" : ""}`}
+              rel="noreferrer"
+              target={"_blank"}
+              href={item?.project_link}
+            >
+              Visit Project
             </a>
           )}
           {item?.source_code && (
-            <a rel="noreferrer" target={"_blank"} href={item?.source_code}>
-              <a className="underline">Source Code</a>
+            <a
+              className="underline "
+              rel="noreferrer"
+              target={"_blank"}
+              href={item?.source_code}
+            >
+              Source Code
             </a>
           )}
         </div>
