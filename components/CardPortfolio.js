@@ -16,19 +16,11 @@ const CardPortfolio = ({ item }) => {
           <p className="text-sm md:text-base font-light">{item?.description}</p>
           <div className="flex flex-row flex-wrap mt-2">
             {item?.stack?.map((item, index) => {
-              if (item?.link) {
-                return (
-                  <a key={index} href={item?.link} target="_blank" className="mr-2 mb-2">
-                    <Tag item={item} />
-                  </a>
-                );
-              } else {
-                return (
-                  <div key={index} className="mr-2 mb-2">
-                    <Tag item={item} />
-                  </div>
-                );
-              }
+              return (
+                <div key={index} className="mr-2 mb-2">
+                  <Tag item={item} />
+                </div>
+              );
             })}
           </div>
         </div>
