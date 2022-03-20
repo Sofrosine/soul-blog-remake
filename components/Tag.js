@@ -5,7 +5,7 @@ const Tag = ({ item }) => {
     <div
       className={`shadow-md py-1 px-2 rounded-sm 
         ${
-          (item?.darkBgColor ? "dark:" + item?.darkBgColor : "") +
+          (item?.darkBgColor !== "" ? "dark:" + item?.darkBgColor : "") +
           " " +
           item?.bgColor
         }`}

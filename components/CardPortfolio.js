@@ -31,14 +31,7 @@ const CardPortfolio = ({ item }) => {
                 );
               } else {
                 return (
-                  <div
-                    key={index}
-                    className={`mr-2 mb-2 rounded-sm ${
-                      (item?.darkBgColor ? "dark:" + item?.darkBgColor : "") +
-                      " " +
-                      item?.bgColor
-                    }`}
-                  >
+                  <div key={index} className={`mr-2 mb-2`}>
                     <Tag item={item} />
                   </div>
                 );
