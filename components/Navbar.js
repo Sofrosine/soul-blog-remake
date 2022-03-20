@@ -19,8 +19,8 @@ const navbarList = [
   //   href: "/skills",
   // },
   {
-    title: "Projects",
-    href: "/projects",
+    title: "Portfolio",
+    href: "/portfolio",
   },
   {
     title: "FYI",
@@ -47,7 +47,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="pb-5 pt-10 z-50">
+    <nav className="pb-5 pt-10 z-50 ">
       <div className="flex row justify-center items-center">
         <ul className="justify-center font-normal text-2xl hidden lg:flex">
           {navbarList.map((item, index) => (

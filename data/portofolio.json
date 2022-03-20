@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Dagangan",
+    "start_date": "December 2020",
+    "description": "Mobile Application that has purpose to help rural society for buying their daily needs, so they don't have to close their store / go out from home",
+    "stack": [
+      {
+        "name": "typescript",
+        "bgColor": "bg-blue"
+      },
+      { "name": "react native", "bgColor": "bg-blue" },
+      { "name": "context api", "bgColor": "bg-blue" },
+      {
+        "name": "firebase",
+        "bgColor": "bg-orange",
+        "darkBgColor": "dark:bg-orangeDark"
+      },
+      {
+        "name": "codePush",
+        "bgColor": "bg-red"
+      }
+    ],
+    "project_link": "https://play.google.com/store/apps/details?id=com.dagangan.mall",
+    "image": "p-dagangan.png"
+  },
+  {
+    "name": "Takenaka",
+    "start_date": "July 2021",
+    "description": "Internal app for tasks report. Available for staff and boss, so they can manage tasks more effective and efficiently. Built with Osmi Kit Boilerplate",
+    "stack": [
+      {
+        "name": "OsmiCSX",
+        "bgColor": "bg-white",
+        "darkBgColor": "dark:bg-warmGray",
+        "link": "https://github.com/OsmiCSX/osmi"
+      },
+      {
+        "name": "javascript",
+        "bgColor": "bg-yellow",
+        "darkBgColor": "dark:bg-orange"
+      },
+      { "name": "react native", "bgColor": "bg-blue" },
+      { "name": "redux saga", "bgColor": "bg-blue" },
+      {
+        "name": "firebase",
+        "bgColor": "bg-orange",
+        "darkBgColor": "dark:bg-orangeDark"
+      }
+    ],
+    "image": "p-takenaka.png"
+  },
+  {
+    "name": "Golden Mulia",
+    "start_date": "July 2021",
+    "description": "Selling gold online. Built with Ignite Boilerplate",
+    "stack": [
+      {
+        "name": "Ignite CLI",
+        "bgColor": "bg-white",
+        "darkBgColor": "dark:bg-warmGray",
+        "link": "https://github.com/infinitered/ignite"
+      },
+      {
+        "name": "typescript",
+        "bgColor": "bg-blue"
+      },
+      { "name": "react native", "bgColor": "bg-blue" },
+      { "name": "mobx state tree", "bgColor": "bg-blue" },
+      {
+        "name": "firebase",
+        "bgColor": "bg-orange",
+        "darkBgColor": "dark:bg-orangeDark"
+      }
+    ],
+    "image": "p-goldenmulia.png"
+  },
+  {
+    "name": "Eda App",
+    "start_date": "November 2020",
+    "description": "Item delivery app. Available for driver and sender",
+    "stack": [
+      {
+        "name": "javascript",
+        "bgColor": "bg-yellow",
+        "darkBgColor": "dark:bg-orange"
+      },
+      { "name": "react native", "bgColor": "bg-blue" },
+      { "name": "redux thunk", "bgColor": "bg-blue" },
+      {
+        "name": "firebase",
+        "bgColor": "bg-orange",
+        "darkBgColor": "dark:bg-orangeDark"
+      }
+    ],
+    "source_code": "https://play.google.com/store/apps/details?id=com.dagangan.mall",
+    "image": "p-eda.png"
+  }
+]

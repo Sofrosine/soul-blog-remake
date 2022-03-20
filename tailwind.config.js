@@ -16,7 +16,12 @@ module.exports = {
           DEFAULT: "#FAFAFA",
         },
         warmGray: "rgb(115 115 115)",
+
         barColor: "#333",
+        yellow: "#f7df1e",
+        orange: "#FFA611",
+        orangeDark: "#F6820D",
+        red: "#e43e17",
       },
       background: {
         red: colors.red,

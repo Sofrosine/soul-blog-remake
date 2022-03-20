@@ -17,7 +17,7 @@ const prettier = require("prettier");
                   .replace("/fyi/index", "/fyi")
                   .replace("/journey/index", "/journey")
                   .replace("/blog/index", "/blog")
-                  .replace("/projects/index", "/projects")
+                  .replace("/portfolio/index", "/portfolio")
                   .replace(".js", "")
                   .replace(".mdx", "");
                 const route = path === "/index" ? "" : path;
