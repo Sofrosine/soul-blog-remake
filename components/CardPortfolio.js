@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import Tag from "./Tag";
 
 const CardPortfolio = ({ item }) => {

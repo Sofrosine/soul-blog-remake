@@ -10,12 +10,7 @@ const Tag = ({ item }) => {
         item?.bgColor
       }
     >
-      <p className="text-xs">
-        {capitalizeEachWords(item?.name || "") +
-          (item?.darkBgColor ? " dark:" + item?.darkBgColor : "") +
-          " " +
-          item?.bgColor}
-      </p>
+      <p className="text-xs">{capitalizeEachWords(item?.name || "")}</p>
     </div>
   );
 };
