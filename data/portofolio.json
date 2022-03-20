@@ -6,10 +6,11 @@
     "stack": [
       {
         "name": "typescript",
-        "bgColor": "bg-blue"
+        "bgColor": "bg-blue",
+        "darkBgColor": ""
       },
-      { "name": "react native", "bgColor": "bg-blue" },
-      { "name": "context api", "bgColor": "bg-blue" },
+      { "name": "react native", "bgColor": "bg-blue", "darkBgColor": "" },
+      { "name": "context api", "bgColor": "bg-blue", "darkBgColor": "" },
       {
         "name": "firebase",
         "bgColor": "bg-orange",
@@ -39,8 +40,8 @@
         "bgColor": "bg-yellow",
         "darkBgColor": "dark:bg-orange"
       },
-      { "name": "react native", "bgColor": "bg-blue" },
-      { "name": "redux saga", "bgColor": "bg-blue" },
+      { "name": "react native", "bgColor": "bg-blue", "darkBgColor": "" },
+      { "name": "redux saga", "bgColor": "bg-blue", "darkBgColor": "" },
       {
         "name": "firebase",
         "bgColor": "bg-orange",
@@ -62,10 +63,11 @@
       },
       {
         "name": "typescript",
-        "bgColor": "bg-blue"
+        "bgColor": "bg-blue",
+        "darkBgColor": ""
       },
-      { "name": "react native", "bgColor": "bg-blue" },
-      { "name": "mobx state tree", "bgColor": "bg-blue" },
+      { "name": "react native", "bgColor": "bg-blue", "darkBgColor": "" },
+      { "name": "mobx state tree", "bgColor": "bg-blue", "darkBgColor": "" },
       {
         "name": "firebase",
         "bgColor": "bg-orange",
@@ -84,8 +86,8 @@
         "bgColor": "bg-yellow",
         "darkBgColor": "dark:bg-orange"
       },
-      { "name": "react native", "bgColor": "bg-blue" },
-      { "name": "redux thunk", "bgColor": "bg-blue" },
+      { "name": "react native", "bgColor": "bg-blue", "darkBgColor": "" },
+      { "name": "redux thunk", "bgColor": "bg-blue", "darkBgColor": "" },
       {
         "name": "firebase",
         "bgColor": "bg-orange",
