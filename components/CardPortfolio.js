@@ -24,15 +24,15 @@ const CardPortfolio = ({ item }) => {
                     key={index}
                     href={item?.link}
                     target="_blank"
-                    className="mr-2 mb-2"
+                    className="mr-2 mb-2 bg-red"
                   >
-                    <Tag item={item} />
+                    {item?.name}
                   </a>
                 );
               } else {
                 return (
-                  <div key={index} className={`mr-2 mb-2`}>
-                    <Tag item={item} />
+                  <div key={index} className={`mr-2 mb-2 bg-orange`}>
+                    {item?.name}
                   </div>
                 );
               }
