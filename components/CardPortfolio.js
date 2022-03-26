@@ -3,7 +3,7 @@ import Tag from "./Tag";
 
 const CardPortfolio = ({ item }) => {
   return (
-    <div className="bg-white dark:bg-blueGray shadow-lg p-1 rounded-lg flex flex-col lg:flex-row card-blog">
+    <div className="bg-white dark:bg-blueGray shadow-lg p-1 rounded-lg flex flex-col lg:flex-row card-blog transition-transform">
       <div className="bg-blueGray lg:w-2/4 w-full h-56 md:h-72 lg:h-auto relative rounded overflow-hidden shadow-lg mb-4 lg:mb-0">
         <Image className="relative" layout="fill" src={"/" + item?.image} />
       </div>

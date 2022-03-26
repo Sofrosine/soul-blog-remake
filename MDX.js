@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 import matter from "gray-matter";
 import moment from "moment";
+import readingTime from "reading-time";
 
 export const getBlogs = () => {
   let blogs = [];
@@ -14,7 +15,12 @@ export const getBlogs = () => {
           encoding: "utf-8",
         });
         const { content, data } = matter(source);
-        blogs.push({ ...data, link: file.replace(".mdx", "") });
+        const readingTimeVar = readingTime(content).text;
+        blogs.push({
+          ...data,
+          link: file.replace(".mdx", ""),
+          readingTime: readingTimeVar,
+        });
       }
     });
     blogs.sort((a, b) => moment(b?.date).unix() - moment(a?.date).unix());

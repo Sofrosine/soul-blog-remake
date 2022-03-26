@@ -44,3 +44,7 @@
 .card-blog {
   min-height: 280px;
 }
+
+.card-blog:hover {
+  transform: scale(1.05);
+}

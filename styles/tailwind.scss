@@ -39,9 +39,6 @@
 
     a {
       @apply text-pink-600;
-      &:hover {
-        @apply border-b border-dashed;
-      }
     }
 
     blockquote {
