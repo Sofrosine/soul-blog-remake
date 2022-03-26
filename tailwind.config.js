@@ -8,8 +8,7 @@ module.exports = {
   purge: [
     "./pages/**/*.js",
     "./components/**/*.js",
-    "./components/*.js",
-    "./data/**/*.{js,ts,jsx,tsx,json}",
+    "./data/**/*.{js,ts,jsx,tsx,json,mdx}",
   ],
   darkMode: "class", // or 'media' or 'class'
   theme: {
