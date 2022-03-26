@@ -9,9 +9,13 @@ const Tag = ({ item }) => {
   }
   classes.push(item?.bgColor);
 
+  console.log("caca", classes);
+
   return (
     <div className={classes.join(" ")}>
-      <p className="text-xs text-black dark:text-white">{capitalizeEachWords(item?.name || "")}</p>
+      <p className="text-xs text-black dark:text-white">
+        {capitalizeEachWords(item?.name || "")}
+      </p>
     </div>
   );
 };

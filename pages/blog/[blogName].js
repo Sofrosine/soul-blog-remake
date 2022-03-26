@@ -22,7 +22,7 @@ const Blogs = ({ mdxSource, frontMatter }) => {
       <div className="post-wrapper relative dark:text-white text-blueGray bg-white dark:bg-blueGray shadow-2xl rounded-lg p-4 w-11/12 sm:w-1/2 2xl:w-2/5 flex flex-col items-center">
         <span
           onClick={() => router.back()}
-          className="absolute right-4 text-2xl text-blueGray dark:text-white border border-warmGray w-8 h-8 text-center cursor-pointer"
+          className="absolute right-4 text-2xl text-blueGray dark:text-white border border-blueGray dark:border-warmGray rounded-sm w-8 h-8 text-center cursor-pointer"
         >
           &times;
         </span>
