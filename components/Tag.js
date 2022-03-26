@@ -11,7 +11,7 @@ const Tag = ({ item }) => {
 
   return (
     <div className={classes.join(" ")}>
-      <p className="text-xs">{capitalizeEachWords(item?.name || "")}</p>
+      <p className="text-xs text-black dark:text-white">{capitalizeEachWords(item?.name || "")}</p>
     </div>
   );
 };

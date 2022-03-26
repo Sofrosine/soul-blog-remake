@@ -9,11 +9,11 @@ const CardPortfolio = ({ item }) => {
       </div>
       <div className="pt-2 pl-3 pr-4 w-full h-auto lg:w-1/2 flex flex-1 flex-col justify-between">
         <div className="mb-4">
-          <h1 className="text-2xl  font-semibold mb-1">{item?.name}</h1>
-          <p className="text-xs  font-extralight mb-3">
+          <h1 className="text-2xl text-blueGray dark:text-white font-semibold mb-1">{item?.name}</h1>
+          <p className="text-xs text-blueGray dark:text-white font-extralight mb-3">
             Created at {item?.start_date}
           </p>
-          <p className="text-sm md:text-base font-light ">
+          <p className="text-sm md:text-base font-light text-blueGray dark:text-white">
             {item?.description}
           </p>
           <div className="flex flex-row flex-wrap mt-2">
