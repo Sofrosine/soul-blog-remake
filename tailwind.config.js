@@ -34,9 +34,12 @@ module.exports = {
         red: colors.red,
         black: "#000000",
       },
+      animation: {
+        bounce200: "bounce 1s infinite 200ms",
+        bounce400: "bounce 1s infinite 400ms",
+      },
     },
     fontFamily: {
-      roboto: ["Roboto", "ui-sans-serif"],
       poppins: ["Poppins", "ui-sans-serif"],
     },
   },

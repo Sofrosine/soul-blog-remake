@@ -1,7 +1,11 @@
-import React from "react";
-import CardBlog from "../components/CardBlog";
+import dynamic from "next/dynamic";
 import Layout from "../components/Layout";
+import Loader from "../components/Loader";
 import { getBlogs } from "../MDX";
+
+const CardBlog = dynamic(() => import("../components/CardBlog"), {
+  loading: () => <Loader />,
+});
 
 const blog = ({ blogs }) => {
   return (

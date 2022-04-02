@@ -2,16 +2,16 @@ import Image from "next/image";
 import { memo } from "react";
 import Tag from "./Tag";
 
-const CardPortfolio = ({ item }) => {
+const CardPortfolio = ({ item, index }) => {
   return (
     <div className="bg-white dark:bg-blueGray shadow-lg p-1 rounded-lg flex flex-col lg:flex-row card-blog transition-transform">
       <div className="bg-blueGray lg:w-2/4 w-full h-56 md:h-72 lg:h-auto relative rounded overflow-hidden shadow-lg mb-4 lg:mb-0">
         <Image
-          alt="card-portfolio"
-          loading="lazy"
+          loading={index > 1 ? "lazy" : "eager"}
           className="relative"
           layout="fill"
           src={"/" + item?.image}
+          alt="card-portfolio"
         />
       </div>
       <div className="pt-2 pl-3 pr-4 w-full h-auto lg:w-1/2 flex flex-1 flex-col justify-between">

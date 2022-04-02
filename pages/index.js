@@ -10,14 +10,14 @@ export default function Home() {
       title="soultanid"
       className="flex flex-col md:flex-row justify-center items-center"
     >
-      <Image
-        className="rounded-full shadow"
-        src="/me.jpeg"
-        height={160}
-        width={160}
-        objectFit="contain"
-        alt="Soultan Muhammad Albar"
-      />
+      <div className="relative w-36 h-36">
+        <Image
+          className="rounded-full shadow"
+          src="/me.jpeg"
+          layout="fill"
+          alt="Soultan Muhammad Albar"
+        />
+      </div>
       <div className="flex flex-col md:ml-8 justify-center">
         <h1 className="text-xl md:text-3xl text-blueGray dark:text-white mt-8 md:mt-0 text-center ml-6 mr-6 md:ml-0 md:mr-0 md:text-start font-regular mb-4">
           Hello, I'm

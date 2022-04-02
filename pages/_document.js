@@ -19,10 +19,13 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap"
-            rel="stylesheet"
-          ></link>
+            rel="preload"
+            href="/fonts/Poppins/Poppins-Regular.ttf"
+            as="font"
+            crossOrigin=""
+          />
           <link rel="shortcut icon" href="/favicon.ico" />
           <meta name="application-name" content="SoultanId" />
           <meta name="apple-mobile-web-app-capable" content="yes" />

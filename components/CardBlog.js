@@ -14,8 +14,6 @@ const CardBlog = ({ item, index }) => {
             layout="fill"
             src={"/" + item?.thumbnail}
             alt="card-blog"
-            height={200}
-            width={400}
           />
         </div>
         <div className="pt-2 pl-3 pr-4 w-full h-auto lg:w-1/2 flex flex-1 flex-col justify-between">
