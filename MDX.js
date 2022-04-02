@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 import matter from "gray-matter";
-import moment from "moment";
+import { getUnixTime } from "date-fns";
 import readingTime from "reading-time";
 
 export const getBlogs = () => {
@@ -23,7 +23,9 @@ export const getBlogs = () => {
         });
       }
     });
-    blogs.sort((a, b) => moment(b?.date).unix() - moment(a?.date).unix());
+    blogs.sort(
+      (a, b) => getUnixTime(new Date(b?.date)) - getUnixTime(new Date(a?.date))
+    );
     return blogs;
   } else {
     return null;

@@ -1,16 +1,13 @@
-import { useEffect } from "react";
+import { memo } from "react";
 import { capitalizeEachWords } from "../utils";
 
 const Tag = ({ item }) => {
-  var classes = ["shadow-md", "py-1", "px-2", "rounded-sm"];
-
-  if (item?.darkBgColor !== "") {
-    classes.push(`dark:${item?.darkBgColor}`);
-  }
-  classes.push(item?.bgColor);
-
   return (
-    <div className={classes.join(" ")}>
+    <div
+      className={`shadow-md py-1 px-2 rounded-sm ${
+        item?.darkBgColor !== "" ? "dark:" + item?.darkBgColor : ""
+      } ${item?.bgColor}`}
+    >
       <p className="text-xs text-black dark:text-white">
         {capitalizeEachWords(item?.name || "")}
       </p>
@@ -18,4 +15,4 @@ const Tag = ({ item }) => {
   );
 };
 
-export default Tag;
+export default memo(Tag);

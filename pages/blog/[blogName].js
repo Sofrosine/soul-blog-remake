@@ -1,12 +1,11 @@
+import { format } from "date-fns";
 import matter from "gray-matter";
-import { serialize } from "next-mdx-remote/serialize";
 import { MDXRemote } from "next-mdx-remote";
-import readingTime from "reading-time";
-import moment from "moment";
-import { getFileData, getPaths } from "../../MDX";
-import Layout from "../../components/Layout";
-import Link from "next/link";
+import { serialize } from "next-mdx-remote/serialize";
 import { useRouter } from "next/router";
+import readingTime from "reading-time";
+import Layout from "../../components/Layout";
+import { getFileData, getPaths } from "../../MDX";
 
 const Blogs = ({ mdxSource, frontMatter }) => {
   const router = useRouter();
@@ -31,7 +30,7 @@ const Blogs = ({ mdxSource, frontMatter }) => {
         <div className="mb-3">
           <p className="text-sm font-light">
             📅{"  "}
-            {moment(frontMatter?.date).format("MMMM YYYY")}{" "}
+            {format(new Date(frontMatter?.date), "MMMM yyyy")}{" "}
             <span className="ml-2 mr-3">|</span>🌱 {frontMatter?.readingTime}
           </p>
         </div>

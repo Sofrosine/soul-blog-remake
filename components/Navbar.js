@@ -14,10 +14,6 @@ const navbarList = [
     title: "Journey",
     href: "/journey",
   },
-  // {
-  //   title: "Skills",
-  //   href: "/skills",
-  // },
   {
     title: "Portfolio",
     href: "/portfolio",

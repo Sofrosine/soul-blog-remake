@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { memo, useEffect, useState } from "react";
 import Particles from "react-tsparticles";
 import ParticlesJSON from "../data/particles.json";
 import Meta from "./Meta";
@@ -7,7 +7,6 @@ import Navbar from "./Navbar";
 const Layout = (props) => {
   const [mounted, setMounted] = useState(false);
 
-  // When mounted on client, now we can show the UI
   useEffect(() => {
     setMounted(true);
   }, []);
@@ -48,4 +47,4 @@ const Layout = (props) => {
   );
 };
 
-export default Layout;
+export default memo(Layout);

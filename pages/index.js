@@ -15,7 +15,7 @@ export default function Home() {
         src="/me.jpeg"
         height={160}
         width={160}
-        objectFit="cover"
+        objectFit="contain"
         alt="Soultan Muhammad Albar"
       />
       <div className="flex flex-col md:ml-8 justify-center">
@@ -25,26 +25,9 @@ export default function Home() {
           Muhammad Albar
         </h1>
         <p className="text-base md:text-xl text-blueGray dark:text-white flex font-regular place-self-center md:place-self-start">
-          {/* I'm a{"\xa0"} */}
           <span className="text-blue">Mobile</span>
           {"\xa0"}Engineer
-          {/* {'\xa0and\xa0'} */}
-          {/* <span className="text-blue-500 animate-pulse">Web</span> */}
-          {/* {"\xa0Enthusiast"} */}
         </p>
-
-        {/* <span className="flex flex-row justify-center gap-2">
-          {socialMedia.map((item, key) => (
-            <a
-              target="_blank"
-              className="px-3 hover:shadow-xl rounded"
-              key={key}
-              href={item.href}
-            >
-              <Image className="shadow" src={item.src} height={32} width={32} />
-            </a>
-          ))}
-        </span> */}
       </div>
     </Layout>
   );

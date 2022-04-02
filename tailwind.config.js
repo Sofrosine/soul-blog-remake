@@ -10,11 +10,6 @@ module.exports = {
     "./components/**/*.js",
     "./data/**/*.{js,ts,jsx,tsx,json,mdx}",
   ],
-  content: [
-    "./pages/**/*.js",
-    "./components/**/*.js",
-    "./data/**/*.{js,ts,jsx,tsx,json,mdx}",
-  ],
   darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {

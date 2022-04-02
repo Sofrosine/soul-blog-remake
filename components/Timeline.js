@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { memo } from "react";
 
 const Timeline = ({ item }) => {
   return (
@@ -39,4 +40,4 @@ const Timeline = ({ item }) => {
   );
 };
 
-export default Timeline;
+export default memo(Timeline);
