@@ -25,6 +25,76 @@
     "image": "p-dagangan.png"
   },
   {
+    "name": "SmartCart by ITC",
+    "start_date": "July 2022",
+    "description": "An application that we created to make it easier for International Test Center (ITC) customers to register for certification and purchase learning / training programs.",
+    "stack": [
+      {
+        "name": "javascript",
+        "bgColor": "bg-yellow",
+        "darkBgColor": "bg-orange"
+      },
+      { "name": "react native", "bgColor": "bg-blue", "darkBgColor": "" },
+      { "name": "react query", "bgColor": "bg-blue", "darkBgColor": "" },
+      { "name": "recoil", "bgColor": "bg-blue", "darkBgColor": "" },
+      {
+        "name": "firebase",
+        "bgColor": "bg-orange",
+        "darkBgColor": "bg-orangeDark"
+      },
+      {
+        "name": "codePush",
+        "bgColor": "bg-red"
+      }
+    ],
+    "image": "p-itc.png",
+    "project_link": "https://play.google.com/store/apps/details?id=com.smartcart.itc"
+  },
+  {
+    "name": "Tamamedi",
+    "start_date": "September 2022",
+    "description": "Tamamedi offers the COMPLETE practice exams in the field of health sciences which include competency exams for doctors, dentists, nurses, midwives, and pharmacists.",
+    "stack": [
+      {
+        "name": "typescript",
+        "bgColor": "bg-blue",
+        "darkBgColor": ""
+      },
+      { "name": "react native", "bgColor": "bg-blue", "darkBgColor": "" },
+      { "name": "react query", "bgColor": "bg-blue", "darkBgColor": "" },
+      { "name": "recoil", "bgColor": "bg-blue", "darkBgColor": "" },
+      {
+        "name": "firebase",
+        "bgColor": "bg-orange",
+        "darkBgColor": "bg-orangeDark"
+      }
+    ],
+    "image": "p-tamamedi.png",
+    "project_link": "https://play.google.com/store/apps/details?id=com.tamamedi"
+  },
+  {
+    "name": "Solo Great Sale",
+    "start_date": "September 2022",
+    "description": "Application to take part in the 2021 Great Sale Solo event",
+    "stack": [
+      {
+        "name": "typescript",
+        "bgColor": "bg-blue",
+        "darkBgColor": ""
+      },
+      { "name": "react native", "bgColor": "bg-blue", "darkBgColor": "" },
+      { "name": "react query", "bgColor": "bg-blue", "darkBgColor": "" },
+      { "name": "context api", "bgColor": "bg-blue", "darkBgColor": "" },
+      {
+        "name": "firebase",
+        "bgColor": "bg-orange",
+        "darkBgColor": "bg-orangeDark"
+      }
+    ],
+    "image": "p-sgs.png",
+    "project_link": "https://play.google.com/store/apps/details?id=com.sgsremake"
+  },
+  {
     "name": "Takenaka",
     "start_date": "July 2021",
     "description": "Internal app for tasks report. Available for staff and boss, so they can manage tasks more effective and efficiently. Built with Osmi Kit Boilerplate",
