@@ -30,13 +30,11 @@
     "description": "An application that we created to make it easier for International Test Center (ITC) customers to register for certification and purchase learning / training programs.",
     "stack": [
       {
-        "name": "javascript",
-        "bgColor": "bg-yellow",
+        "name": "dart",
+        "bgColor": "bg-blue",
         "darkBgColor": "bg-orange"
       },
-      { "name": "react native", "bgColor": "bg-blue", "darkBgColor": "" },
-      { "name": "react query", "bgColor": "bg-blue", "darkBgColor": "" },
-      { "name": "recoil", "bgColor": "bg-blue", "darkBgColor": "" },
+      { "name": "Flutter", "bgColor": "bg-blue", "darkBgColor": "" },
       {
         "name": "firebase",
         "bgColor": "bg-orange",
